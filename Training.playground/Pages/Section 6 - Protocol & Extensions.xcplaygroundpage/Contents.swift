@@ -6,8 +6,6 @@ protocol Person {
     func work()
     func drink()
 }
-
-
 //: # Extensions
 //: ### Add new functionality to an existing class, structure, enumeration, or protocol type
 extension String {

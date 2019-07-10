@@ -23,11 +23,6 @@ func greet(person: String, message: String = "Hello") {
     print("\(message) \(person)")
 }
 
-greet()
-greet("John", "")
-greet(person: "asdf")
-greet(orang: "asdf")
-greet(person: "Foo", message: "HELLO WORLD")
 
 //: ## Return a compound value from a function
 func abc() -> Int {
@@ -39,11 +34,6 @@ func abc() -> Int {
 func calculateStats() -> (Int, Int, Int) { // mean, min, max {
     return (1,2,3)
 }
-
-let result = calculateStats()
-print(result.0)
-print(result.1)
-print(result.2)
 
 
 //: ## Let's move on!
